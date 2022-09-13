@@ -1,0 +1,9 @@
+# csproj file path
+csproj_file: TizenAmbientMode.csproj
+
+# files monitored for dirty/modified status
+files:
+  - TizenAmbientMode.csproj
+  - TizenAmbientMode.cs
+  - tizen-manifest.xml
+  - shared/res/TizenAmbientMode.png

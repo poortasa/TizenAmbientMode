@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.beetrate.Beta.TizenAmbientMode" version="1.0.0" api-version="6.5" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <ui-application appid="org.beetrate.Beta.TizenAmbientMode" exec="TizenAmbientMode.dll" multiple="false" nodisplay="false" taskmanage="true" api-version="9" type="dotnet" launch_mode="single">
+        <label>TizenAmbientMode</label>
+        <icon>TizenAmbientMode.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <splash-screens />
+    </ui-application>
+    <shortcut-list />
+    <dependencies />
+    <provides-appdefined-privileges />
+</manifest>
