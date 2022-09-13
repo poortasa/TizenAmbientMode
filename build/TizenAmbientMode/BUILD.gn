@@ -1,0 +1,16 @@
+import("$tizen_core/build/dotnet/project.gni")
+
+dotnet_project("TizenAmbientMode") {
+  
+   
+  csprojpath = "TizenAmbientMode.csproj"
+  is_dep = false
+  files = [
+      "TizenAmbientMode.csproj",
+      "TizenAmbientMode.cs",
+      "tizen-manifest.xml",
+      "shared/res/TizenAmbientMode.png",
+  ]
+  deps = [
+  ]
+}

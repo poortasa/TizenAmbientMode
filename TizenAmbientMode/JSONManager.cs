@@ -203,6 +203,17 @@ namespace TizenAmbientMode
                 currentIndex = 0;
             }
         }
+
+        public void MoveNextRandom()
+        { 
+            var R = new Random(); 
+            int idx = R.Next(0, Links.Count);
+            while (idx==currentIndex)
+            {
+                idx = R.Next(0, Links.Count);
+            }
+            currentIndex = idx;
+        }
         /// <summary>
         /// Adds a retrieved link to the image database for later reloading
         /// </summary>
